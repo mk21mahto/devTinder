@@ -1,0 +1,15 @@
+$kind: http-request
+name: profile/edit
+description: ""
+url: http://localhost:3000/profile/edit
+method: PATCH
+body:
+  type: json
+  content: |-
+    {
+        "firstName": "Mahendrea",
+        "lastName": "Dhoni",
+        "emailId": "dhone@gmail.com",
+        "password": "msDhone@12334"
+    }
+order: 5000
